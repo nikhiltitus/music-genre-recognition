@@ -7,6 +7,7 @@ import librosa as lbr
 import keras.backend as K
 
 GENRES = ['0', '1', '2', '3', '4', '5', '6','7']
+GENRE_LOOKUP=['Hip-Hop','Pop','Folk','Experimental','Rock','International','Electronic','Instrumental']
 WINDOW_SIZE = 2048
 WINDOW_STRIDE = WINDOW_SIZE // 2
 N_MELS = 128
