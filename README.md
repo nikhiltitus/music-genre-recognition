@@ -12,14 +12,14 @@ Use it as:
 
 
 
-##Acknowledgements
+## Acknowledgements
 
 * This project uses a lot of code from: https://github.com/deepsound-project/genre-recognition Many thanks to  Piotr Kozakowski & Bartosz Michalak
 * The model was trained using an architecture very similar to http://benanne.github.io/2014/08/05/spotify-cnns.html
 * The model was trained using the FMA small data set: https://github.com/mdeff/fma
 * Model was trained and tested as part of the neural networks project of COMPSCI 682 at UMASS Amherst. https://compsci682.github.io/
 
-##Contact info
+## Contact info
 
 Please contact me: nikhiltitusk@gmail.com if you need any more info.
 ## License
