@@ -41,11 +41,9 @@ class GenreClassifier:
         output = model.predict(data_x)
         data_y = np.argmax(output, axis=1)
         print data_y.shape
-        i=0
         for i in range(0,len(data_y)):
             predicted_genre=GENRE_LOOKUP[data_y[i]]
             self.output_file.write(str(i)+'|'+self.file_list[i]+'|'+predicted_genre+'\n')
-            i=i+1
         return data_y
 
 
