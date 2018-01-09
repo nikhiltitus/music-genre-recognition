@@ -3,6 +3,10 @@
 This program recongnizes the genre of a music by listening directly to the sound files. Once the program is run an output.txt file is obtained which contains the name of the songs and the genre of the music. This can be used by any individual to organize their music library or this can be used for building recommender systems. The model was trained using keras on tensorflow to obtain an accuracy of about 75% on the FMA dataset.
 
 This program can identify 8 genres: Hip-Hop,Pop,Folk,Experimental,Rock,International,Electronic,Instrumental 
+
+For more details on how the model was trained please refer my other repo: https://github.com/nikhiltitus/genre-recognition
+
+
 ## Usage
 
 
